@@ -1,6 +1,6 @@
 <section>
 	<h2>Tips 'n Tricks</h2>
-    <img src="img/dude_4.gif">
+    <img style="width:50%;" src="img/dude_4.gif">
 </section>
 <section>
 	<h3>Use variables in Gruntfile.js</h3>
@@ -79,16 +79,10 @@
             coffee: {
                 files: ['coffee/\*.coffee'],
                 tasks: ['compile','jshint'],
-                options: {
-                    spawn: false
-                }
             },
             javascript: {
                 files: ['js/\*.js'],
                 tasks: ['jshint'],
-                options: {
-                    spawn: false
-                }
             }
         },
 		</code>

@@ -6,13 +6,6 @@
 <img src="img/nodejs.jpg">
 </section>
 <section>
-	<img src="img/npm.png"/>
-
-	<blockquote cite="https://npmjs.org/">
- 		<cite>npmjs.org -- 2013-08-11</cite>
- 	</blockquote>
-</section>
-<section>
 <blockquote cite="http://gruntjs.com/getting-started">
 	npm install -g grunt-cli
 </blockquote>
@@ -34,7 +27,6 @@
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-jshint": "~0.3.0",
     "grunt-contrib-watch": "~0.4.3",
-    "grunt-contrib-clean": "~0.4.1",
     "grunt-contrib-htmlmin": "~0.1.1",
     "grunt-usemin": "~0.1.12"
   }
